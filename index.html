@@ -1,5 +1,318 @@
 <!DOCTYPE html>
-<html>
-<head><title>Meine Webseite</title></head>
-<body><h1>Hallo Welt!</h1></body>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Yunus Yildirim | Homelab Portfolio</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family:Segoe UI,Arial,sans-serif;
+    background:#0f172a;
+    color:#f8fafc;
+}
+
+header{
+    text-align:center;
+    padding:70px 20px;
+    background:#111827;
+}
+
+header h1{
+    font-size:48px;
+    margin-bottom:10px;
+}
+
+header p{
+    color:#94a3b8;
+    font-size:20px;
+}
+
+section{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    padding:40px 0;
+}
+
+h2{
+    color:#38bdf8;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:25px;
+}
+
+.card{
+
+    background:#1e293b;
+    border-radius:12px;
+    padding:25px;
+
+    transition:.25s;
+}
+
+.card:hover{
+
+    transform:translateY(-5px);
+
+    background:#334155;
+
+}
+
+.card h3{
+
+    margin-top:0;
+
+}
+
+.card p{
+
+    color:#cbd5e1;
+
+}
+
+.button{
+
+display:inline-block;
+
+margin-top:15px;
+
+padding:10px 20px;
+
+background:#0ea5e9;
+
+color:white;
+
+text-decoration:none;
+
+border-radius:8px;
+
+}
+
+.skills{
+
+display:flex;
+
+flex-wrap:wrap;
+
+gap:10px;
+
+}
+
+.skill{
+
+background:#1e293b;
+
+padding:10px 15px;
+
+border-radius:30px;
+
+}
+
+footer{
+
+text-align:center;
+
+padding:40px;
+
+color:#94a3b8;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>🖥️ Homelab Portfolio</h1>
+
+<p>Linux • Windows • Netzwerke • Systemadministration • Hardware</p>
+
+</header>
+
+<section>
+
+<h2>Über mich</h2>
+
+<p>
+
+Hallo!
+
+Ich bin angehender Fachinformatiker für Systemintegration und dokumentiere in diesem Homelab
+
+meine privaten IT-Projekte.
+
+Der Schwerpunkt liegt auf Linux-Systemadministration, Netzwerken,
+
+Virtualisierung, Hardwarediagnose sowie Automatisierung.
+
+</p>
+
+</section>
+
+<section>
+
+<h2>Projekte</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>Cross Platform File Synchronization</h3>
+
+<p>
+
+Automatische Dateisynchronisation zwischen Linux, Windows und Android
+
+mittels Syncthing.
+
+</p>
+
+<a class="button" href="https://github.com/YildiYun/Cross-Platform-File-Synchronization">
+
+Repository
+
+</a>
+
+</div>
+
+<div class="card">
+
+<h3>Low Latency Remote Desktop Streaming</h3>
+
+<p>
+
+Einrichtung einer Remote-Desktop-Lösung mit Sunshine, Moonlight
+
+und Tailscale.
+
+</p>
+
+<a class="button" href="https://github.com/YildiYun/Low-Latency-Remote-Desktop-Streaming">
+
+Repository
+
+</a>
+
+</div>
+
+<div class="card">
+
+<h3>Hardware Repair Projects</h3>
+
+<p>
+
+Hardwarediagnose, Display-Upgrades,
+
+Audio-Modifikationen und Controller-Reparaturen.
+
+</p>
+
+<a class="button" href="https://github.com/YildiYun/Hardware-Repair-Projects">
+
+Repository
+
+</a>
+
+</div>
+
+<div class="card">
+
+<h3>Embedded Console Configuration</h3>
+
+<p>
+
+Dokumentation von Firmware-Management,
+
+Datensicherung und Embedded-System-Konfiguration.
+
+</p>
+
+<a class="button" href="https://github.com/YildiYun/Embedded-Console-Configuration">
+
+Repository
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Technologien</h2>
+
+<div class="skills">
+
+<div class="skill">Linux</div>
+
+<div class="skill">Windows</div>
+
+<div class="skill">Git</div>
+
+<div class="skill">Bash</div>
+
+<div class="skill">Hyper-V</div>
+
+<div class="skill">Syncthing</div>
+
+<div class="skill">Tailscale</div>
+
+<div class="skill">VPN</div>
+
+<div class="skill">Firewall</div>
+
+<div class="skill">Moonlight</div>
+
+<div class="skill">Sunshine</div>
+
+<div class="skill">Hardware Repair</div>
+
+<div class="skill">Troubleshooting</div>
+
+<div class="skill">Embedded Systems</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Ziele</h2>
+
+<p>
+
+Dieses Homelab dient dazu,
+
+praktische Erfahrungen im Bereich Systemintegration zu sammeln,
+
+technische Probleme systematisch zu analysieren,
+
+Lösungen zu dokumentieren
+
+und mein Wissen kontinuierlich auszubauen.
+
+</p>
+
+</section>
+
+<footer>
+
+© 2026 Yunus Yildirim • Fachinformatiker für Systemintegration
+
+</footer>
+
+</body>
+
 </html>
