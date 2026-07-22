@@ -1,1 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Yunus Yildirim | Homelab Portfolio</title>
+
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <h1>🖥️ Homelab Portfolio</h1>
+
+    <p>
+        Linux • Windows • Networking • System Administration • Automation • Hardware Diagnostics
+    </p>
+
+</header>
+
+<section>
+
+<h2>About</h2>
+
+<p>
+
+Welcome to my Homelab Portfolio.
+
+This website showcases my personal IT projects and technical experiments.
+
+I am currently training as an <strong>IT Specialist for System Integration (Fachinformatiker für Systemintegration)</strong> in Germany.
+
+My projects focus on Linux administration, Windows administration, networking, virtualization, automation, troubleshooting, hardware diagnostics, and embedded systems.
+
+</p>
+
+</section>
+
+<section>
+
+<h2>Projects</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>Cross-Platform File Synchronization</h3>
+
+<p>
+
+Deployment of a decentralized synchronization solution using Syncthing across Windows, Linux and Android.
+
+</p>
+
+<a class="button" href="https://github.com/YildiYun/Cross-Platform-File-Synchronization">
+
+View Repository
+
+</a>
+
+</div>
+
+<div class="card">
+
+<h3>Low-Latency Remote Desktop Streaming</h3>
+
+<p>
+
+Remote desktop streaming using Sunshine, Moonlight and Tailscale.
+
+</p>
+
+<a class="button" href="https://github.com/YildiYun/Low-Latency-Remote-Desktop-Streaming">
+
+View Repository
+
+</a>
+
+</div>
+
+<div class="card">
+
+<h3>Hardware Repair Projects</h3>
+
+<p>
+
+Hardware diagnostics, soldering, console repair and hardware upgrades.
+
+</p>
+
+<a class="button" href="https://github.com/YildiYun/Hardware-Repair-Projects">
+
+View Repository
+
+</a>
+
+</div>
+
+<div class="card">
+
+<h3>Embedded Console Configuration</h3>
+
+<p>
+
+Documentation of firmware installation, backup and recovery procedures.
+
+</p>
+
+<a class="button" href="https://github.com/YildiYun/Embedded-Console-Configuration">
+
+View Repository
+
+</a>
+
+</div>
+
+<div class="card">
+
+<h3>Windows Automation Scripts</h3>
+
+<p>
+
+Windows Batch and PowerShell scripts for automating administrative tasks and improving productivity.
+
+</p>
+
+<a class="button" href="https://github.com/YildiYun/Windows-Automation-Scripts">
+
+View Repository
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Technical Skills</h2>
+
+<div class="skills">
+
+<div class="skill">Linux Administration</div>
+<div class="skill">Windows Administration</div>
+<div class="skill">PowerShell</div>
+<div class="skill">Windows Batch</div>
+<div class="skill">Bash</div>
+<div class="skill">Automation</div>
+<div class="skill">Networking</div>
+<div class="skill">TCP/IP</div>
+<div class="skill">Firewall Configuration</div>
+<div class="skill">Hyper-V</div>
+<div class="skill">Syncthing</div>
+<div class="skill">Tailscale</div>
+<div class="skill">Git</div>
+<div class="skill">GitHub</div>
+<div class="skill">Hardware Diagnostics</div>
+<div class="skill">Troubleshooting</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Current Learning Focus</h2>
+
+<ul>
+
+<li>Linux Administration</li>
+<li>Windows Administration</li>
+<li>PowerShell</li>
+<li>Bash</li>
+<li>Networking</li>
+<li>Virtualization</li>
+<li>Automation</li>
+<li>Hardware Diagnostics</li>
+
+</ul>
+
+</section>
+
+<section>
+
+<h2>Future Projects</h2>
+
+<ul>
+
+<li>Docker</li>
+<li>Windows Server</li>
+<li>Active Directory</li>
+<li>Group Policy</li>
+<li>Ansible</li>
+<li>Grafana</li>
+<li>Prometheus</li>
+<li>PowerShell Automation</li>
+
+</ul>
+
+</section>
+
+<footer>
+
+<p><strong>Yunus Yildirim</strong></p>
+
+<p>
+
+IT Specialist for System Integration • Homelab Portfolio
+
+</p>
+
+<p>
+
+© 2026
+
+</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
