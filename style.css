@@ -1,238 +1,312 @@
-<!DOCTYPE html>
-<html lang="en">
+/* ==========================================================
+   Global
+========================================================== */
 
-<head>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+html{
+    scroll-behavior:smooth;
+}
 
-    <title>Yunus Yildirim | Homelab Portfolio</title>
+body{
 
-    <link rel="icon" href="assets/favicon.ico">
-    <link rel="stylesheet" href="style.css">
+    font-family:Segoe UI,Arial,sans-serif;
 
-</head>
+    background:#0d1117;
 
-<body>
+    color:#e6edf3;
 
-<header>
+    line-height:1.7;
 
-    <h1>🖥️ Homelab Portfolio</h1>
-
-    <p>
-        Linux • Windows • Networking • System Administration • Automation • Hardware Diagnostics
-    </p>
-
-</header>
-
-<section>
-
-<h2>About</h2>
-
-<p>
-
-Welcome to my Homelab Portfolio.
-
-This website showcases my personal IT projects and technical experiments.
-
-I am currently training as an <strong>IT Specialist for System Integration (Fachinformatiker für Systemintegration)</strong> in Germany.
-
-My projects focus on Linux administration, Windows administration, networking, virtualization, automation, troubleshooting, hardware diagnostics, and embedded systems.
-
-</p>
-
-</section>
-
-<section>
-
-<h2>Projects</h2>
-
-<div class="cards">
-
-<div class="card">
-
-<h3>Cross-Platform File Synchronization</h3>
-
-<p>
-
-Deployment of a decentralized synchronization solution using Syncthing across Windows, Linux and Android.
-
-</p>
-
-<a class="button" href="https://github.com/YildiYun/Cross-Platform-File-Synchronization">
-
-View Repository
-
-</a>
-
-</div>
-
-<div class="card">
-
-<h3>Low-Latency Remote Desktop Streaming</h3>
-
-<p>
-
-Remote desktop streaming using Sunshine, Moonlight and Tailscale.
-
-</p>
-
-<a class="button" href="https://github.com/YildiYun/Low-Latency-Remote-Desktop-Streaming">
-
-View Repository
-
-</a>
-
-</div>
-
-<div class="card">
-
-<h3>Hardware Repair Projects</h3>
-
-<p>
-
-Hardware diagnostics, soldering, console repair and hardware upgrades.
-
-</p>
-
-<a class="button" href="https://github.com/YildiYun/Hardware-Repair-Projects">
-
-View Repository
-
-</a>
-
-</div>
-
-<div class="card">
-
-<h3>Embedded Console Configuration</h3>
-
-<p>
-
-Documentation of firmware installation, backup and recovery procedures.
-
-</p>
-
-<a class="button" href="https://github.com/YildiYun/Embedded-Console-Configuration">
-
-View Repository
-
-</a>
-
-</div>
-
-<div class="card">
-
-<h3>Windows Automation Scripts</h3>
-
-<p>
-
-Windows Batch and PowerShell scripts for automating administrative tasks and improving productivity.
-
-</p>
-
-<a class="button" href="https://github.com/YildiYun/Windows-Automation-Scripts">
-
-View Repository
-
-</a>
-
-</div>
-
-</div>
-
-</section>
-
-<section>
-
-<h2>Technical Skills</h2>
-
-<div class="skills">
-
-<div class="skill">Linux Administration</div>
-<div class="skill">Windows Administration</div>
-<div class="skill">PowerShell</div>
-<div class="skill">Windows Batch</div>
-<div class="skill">Bash</div>
-<div class="skill">Automation</div>
-<div class="skill">Networking</div>
-<div class="skill">TCP/IP</div>
-<div class="skill">Firewall Configuration</div>
-<div class="skill">Hyper-V</div>
-<div class="skill">Syncthing</div>
-<div class="skill">Tailscale</div>
-<div class="skill">Git</div>
-<div class="skill">GitHub</div>
-<div class="skill">Hardware Diagnostics</div>
-<div class="skill">Troubleshooting</div>
-
-</div>
-
-</section>
-
-<section>
-
-<h2>Current Learning Focus</h2>
-
-<ul>
-
-<li>Linux Administration</li>
-<li>Windows Administration</li>
-<li>PowerShell</li>
-<li>Bash</li>
-<li>Networking</li>
-<li>Virtualization</li>
-<li>Automation</li>
-<li>Hardware Diagnostics</li>
-
-</ul>
-
-</section>
-
-<section>
-
-<h2>Future Projects</h2>
-
-<ul>
-
-<li>Docker</li>
-<li>Windows Server</li>
-<li>Active Directory</li>
-<li>Group Policy</li>
-<li>Ansible</li>
-<li>Grafana</li>
-<li>Prometheus</li>
-<li>PowerShell Automation</li>
-
-</ul>
-
-</section>
-
-<footer>
-
-<p><strong>Yunus Yildirim</strong></p>
-
-<p>
-
-IT Specialist for System Integration • Homelab Portfolio
-
-</p>
-
-<p>
-
-© 2026
-
-</p>
-
-</footer>
-
-<script src="script.js"></script>
-
-</body>
-
-</html>
+}
 
 /* ==========================================================
+   Header
+========================================================== */
+
+header{
+
+    text-align:center;
+
+    padding:90px 20px;
+
+    background:linear-gradient(180deg,#161b22,#0d1117);
+
+    border-bottom:1px solid #30363d;
+
+}
+
+header h1{
+
+    font-size:52px;
+
+    margin-bottom:20px;
+
+}
+
+header p{
+
+    font-size:22px;
+
+    color:#8b949e;
+
+}
+
+/* ==========================================================
+   Sections
+========================================================== */
+
+section{
+
+    width:90%;
+
+    max-width:1200px;
+
+    margin:auto;
+
+    padding:70px 0;
+
+}
+
+section h2{
+
+    color:#58a6ff;
+
+    margin-bottom:30px;
+
+    padding-bottom:10px;
+
+    border-bottom:1px solid #30363d;
+
+}
+
+/* ==========================================================
+   Project Cards
+========================================================== */
+
+.cards{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+    gap:30px;
+
+}
+
+.card{
+
+    background:#161b22;
+
+    border:1px solid #30363d;
+
+    border-radius:15px;
+
+    padding:25px;
+
+    transition:0.3s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#58a6ff;
+
+    box-shadow:0 10px 25px rgba(88,166,255,.2);
+
+}
+
+.card h3{
+
+    margin-bottom:15px;
+
+}
+
+.card p{
+
+    color:#c9d1d9;
+
+    margin-bottom:20px;
+
+}
+
+/* ==========================================================
+   Buttons
+========================================================== */
+
+.button{
+
+    display:inline-block;
+
+    padding:12px 22px;
+
+    background:#238636;
+
+    color:white;
+
+    text-decoration:none;
+
+    border-radius:8px;
+
+    font-weight:bold;
+
+    transition:.25s;
+
+}
+
+.button:hover{
+
+    background:#2ea043;
+
+}
+
+/* ==========================================================
+   Skills
+========================================================== */
+
+.skills{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:12px;
+
+}
+
+.skill{
+
+    background:#21262d;
+
+    border:1px solid #30363d;
+
+    padding:12px 18px;
+
+    border-radius:30px;
+
+    transition:.25s;
+
+}
+
+.skill:hover{
+
+    background:#30363d;
+
+    border-color:#58a6ff;
+
+}
+
+/* ==========================================================
+   Lists
+========================================================== */
+
+ul{
+
+    padding-left:25px;
+
+}
+
+li{
+
+    margin-bottom:12px;
+
+}
+
+/* ==========================================================
+   Links
+========================================================== */
+
+a{
+
+    color:#58a6ff;
+
+}
+
+a:hover{
+
+    color:#79c0ff;
+
+}
+
+/* ==========================================================
+   Footer
+========================================================== */
+
+footer{
+
+    margin-top:70px;
+
+    padding:50px;
+
+    text-align:center;
+
+    border-top:1px solid #30363d;
+
+    color:#8b949e;
+
+}
+
+/* ==========================================================
+   Scrollbar
+========================================================== */
+
+::-webkit-scrollbar{
+
+    width:12px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:#0d1117;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#30363d;
+
+    border-radius:20px;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+    background:#58a6ff;
+
+}
+
+/* ==========================================================
+   Responsive
+========================================================== */
+
+@media(max-width:768px){
+
+header h1{
+
+    font-size:36px;
+
+}
+
+header p{
+
+    font-size:18px;
+
+}
+
+.cards{
+
+    grid-template-columns:1fr;
+
+}
+
+    /* ==========================================================
 Animations
 ========================================================== */
 
@@ -295,5 +369,65 @@ Back To Top Button
     background:#2ea043;
 
     transform:scale(1.1);
+
+}
+
+/* ==========================================================
+Terminal
+========================================================== */
+
+.terminal{
+
+    max-width:700px;
+
+    margin:50px auto 0;
+
+    background:#161b22;
+
+    border:1px solid #30363d;
+
+    border-radius:12px;
+
+    overflow:hidden;
+
+    box-shadow:0 0 30px rgba(0,0,0,.35);
+
+}
+
+.terminal-header{
+
+    background:#21262d;
+
+    padding:10px 20px;
+
+    color:#8b949e;
+
+    font-size:18px;
+
+}
+
+.terminal-body{
+
+    padding:25px;
+
+    font-family:Consolas, monospace;
+
+    text-align:left;
+
+    color:#c9d1d9;
+
+}
+
+.terminal-body p{
+
+    margin:6px 0;
+
+}
+
+.terminal-body span{
+
+    color:#58a6ff;
+
+}
 
 }
