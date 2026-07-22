@@ -231,3 +231,69 @@ IT Specialist for System Integration • Homelab Portfolio
 </body>
 
 </html>
+
+/* ==========================================================
+Animations
+========================================================== */
+
+.hidden{
+
+    opacity:0;
+
+    transform:translateY(35px);
+
+    transition:all .8s ease;
+
+}
+
+.show{
+
+    opacity:1;
+
+    transform:translateY(0);
+
+}
+
+/* ==========================================================
+Back To Top Button
+========================================================== */
+
+#topButton{
+
+    position:fixed;
+
+    bottom:30px;
+
+    right:30px;
+
+    width:50px;
+
+    height:50px;
+
+    border:none;
+
+    border-radius:50%;
+
+    background:#238636;
+
+    color:white;
+
+    font-size:22px;
+
+    cursor:pointer;
+
+    display:none;
+
+    transition:.3s;
+
+    box-shadow:0 0 15px rgba(0,0,0,.3);
+
+}
+
+#topButton:hover{
+
+    background:#2ea043;
+
+    transform:scale(1.1);
+
+}
