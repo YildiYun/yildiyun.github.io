@@ -50,7 +50,7 @@ Secure, high-performance remote desktop streaming with near-zero latency for gam
 ### 🔧 Hardware Repair & Electronics Projects
 Component-level diagnostics, physical hardware restoration, and electronic engineering.
 - **Diagnostics:** Logic board troubleshooting, voltage rail testing, and fault isolation.
-- **Precision Engineering:** Micro-soldering, SMD component replacement, and thermal management optimization.
+- **Precision Engineering:** Micro-soldering, SMD component replacement.
 - **Quality Assurance:** Post-repair stress testing, functional benchmarking, and safety validation.
 - **Topics:** Hardware Architecture, SMD Soldering, Circuit Analysis, Multimeter Diagnostics.
 
