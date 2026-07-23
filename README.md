@@ -2,16 +2,17 @@
 
 I'm currently training as an **IT Specialist for System Integration (Fachinformatiker für Systemintegration)** in Germany.
 
-I'm passionate about Linux, networking, system administration, virtualization, hardware diagnostics, and troubleshooting. This GitHub profile documents my personal homelab, technical experiments, and hands-on projects completed during my vocational training.
+I'm passionate about Windows, Linux, networking, system administration, virtualization, hardware diagnostics, and troubleshooting. This GitHub profile documents my personal homelab, technical experiments, and hands-on projects completed in my free time to tackle issues or optimisation possiblities I faced in every day live.
 
 ---
 
 ## 🖥️ About Me
 
 - 🎓 IT Specialist for System Integration (Vocational Training)
-- 🐧 Interested in Linux and Open Source
-- 🌐 Networking & Infrastructure Enthusiast
+- 🐧 Interested in Linux and Open Source alternatives
+- 🌐 Networking & Infrastructure
 - 🔧 Hardware Diagnostics & Repair
+- 🎮 Gaming Enthusiast
 - 📚 Continuous Learning through Practical Projects
 
 ---
@@ -24,6 +25,7 @@ A central overview of my personal IT projects and homelab environment.
 
 **Topics**
 
+- Windows Administration
 - Linux Administration
 - Networking
 - Virtualization
@@ -47,6 +49,8 @@ Automated peer-to-peer file synchronization between Windows, Linux, and Android 
 - Linux
 - Android
 - Firewall Configuration
+- Automatic Backup
+- Decentralized File Synchronization
 
 ---
 
