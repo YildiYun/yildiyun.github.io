@@ -44,7 +44,7 @@ Automated peer-to-peer file synchronization between Windows, Linux, and Android 
 
 **Technologies**
 
-- Syncthing
+- Syncthing (P2P Protocol)
 - Windows
 - Linux
 - Android
